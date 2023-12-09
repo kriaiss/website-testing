@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Prosto+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0D1721;
+    color: white;
+}
+h3{
+    font-family: 'Prosto One', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    background-color: #16202c;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 9, 17, 40);
+    padding: 20px;
+}
+.nav__div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.nav__div img{
+    margin-right: 30px;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: 277px 918px;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main-grid__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    list-style: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    
+    margin: 1я0px;
+}
+.main-grid__ul a{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 15px;
+    background-color: #182C3C;
+    border-radius: 15px;
+}
+.nav__div--text{
+    font-size: 10;
+}
+.card_small{
+    display: flex;
+    align-items: center;
+}
+.main-grid--h2{
+    margin-top: 30px;
+}
+.search-icon{
+    background: #182C3C;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+input{
+    background: #182C3C;
+    outline: none;
+    border: none;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ava{
+    display: flex;
+    align-items: center;
+}
+.ava img{
+    margin-right: 10px;
+}
+.arrow_transform{
+    transform: rotate(180deg);
+}
+.offer{
+    display: flex;
+    justify-content: center;
+}
+.offer-main{
+    margin: 20px;
+}
+.pay{
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    text-align: center;
+}
+main{
+    padding: 30px;
+}
